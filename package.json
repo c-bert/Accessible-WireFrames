@@ -1,0 +1,27 @@
+{
+  "name": "dequeworkshoptranslatingdesignwireframes-intoaccessibledesigns",
+  "version": "1.0.0",
+  "description": "Deque Workshop Sept 1 2020",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript"
+  ],
+  "author": "Carissa Engelbert",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.1"
+  }
+}

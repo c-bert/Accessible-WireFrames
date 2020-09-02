@@ -1,0 +1,195 @@
+/* Global Styles */
+h1,
+h2,
+h3 {
+    font-family: "Lobster", cursive;
+    font-weight: bold;
+}
+
+h2 {
+    color: #3046c5;
+}
+
+header h2 {
+    color: #cec8ff;
+}
+
+footer {
+    background-image: linear-gradient(#cec8ff, white);
+    padding: 20px 0;
+    margin-top: 55px;
+}
+
+button:focus,
+button:hover,
+#modal-trigger {
+    font: 21px Lobster, cursive medium;
+    text-shadow: 1px 1px #ffffff;
+    text-underline-position: none;
+}
+
+button {
+    height: 62px;
+    border-radius: 5px !important;
+    font: 18px Lobster medium;
+}
+
+#contact-us-btn {
+    display: inline-block;
+    width: 100%;
+    word-wrap: break-word;
+    background-image: linear-gradient(to right, #00853e, #6f4d0c, #60106b);
+}
+
+#contact-us-btn a {
+    color: #ffffff !important;
+
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* Global Styles END*/
+
+/* Header */
+.jumbotron {
+    background-image: linear-gradient(to right, #00853e, #6f4d0c, #60106b);
+    color: white;
+    margin: 0;
+    border-bottom: 1px ridge;
+}
+
+/* Header END */
+
+/* Navigation Bar */
+nav {
+    width: 100%;
+    background-color: linear-gradient(to right, 0, 100%);
+
+    display: inline-flex;
+    flex-flow: row wrap-reverse;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: center;
+}
+
+.navbar,
+.navbar a {
+    background-color: #901CAD;
+    color: white;
+}
+
+.list li {
+    list-style-type: none;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #6f4d0c;
+    color: white;
+}
+
+.list li:hover {
+    box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.16);
+}
+
+.list li:before {
+    content: "\200B";
+    /* add zero-width space */
+}
+
+.list-item-2 {
+    margin-left: 15px;
+}
+
+/* Navigation Bar END*/
+
+/* Main and Body Content START*/
+#modal-trigger {
+    /* background-image: linear-gradient(5deg, #e94196, #0020ff, #3f51b5); */
+    border: 2px #00bcd4;
+    color: white;
+    text-shadow: 1px 1px #081910;
+    margin-top: 15px;
+    height: 75px;
+
+}
+
+#modal-trigger:hover {
+    text-shadow: 2px 2px #081910;
+    box-shadow: 5px 7px 8px 0px rgba(0, 0, 0, 0.16);
+    background-image: url('/noun_butt_30784.svg');
+    background-repeat: no-repeat;
+    background-position: 200px 25px;
+}
+
+.img-corgi-butt {
+    height: 25%;
+    width: 25%;
+}
+
+#row-one {
+    margin-top: 15px;
+}
+
+.shop-item-container {
+    background-color: #ffffff;
+}
+
+.item-holder {
+    box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.16);
+    box-sizing: border-box;
+    width: 277px;
+    height: 379px;
+}
+
+.recipe-button {
+    width: 100%;
+    height: 62px;
+    background-color: #3c7aae;
+    font: 18px Lobster medium;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.recipe-button:focus,
+.recipe-button:hover {
+    font: 21px Lobster, cursive medium;
+    text-shadow: 1px 1px #ffffff;
+    text-underline-position: none;
+}
+
+/* Main and Body Content End*/
+
+/* Table Start */
+table {
+    width: 100%;
+    display: table;
+}
+
+.cake-img {
+    max-height: 277px;
+    /* width: 370px; */
+    text-align: center;
+}
+
+.regular {
+    color: #666666;
+    font-size: 18px;
+    font-weight: regular;
+    text-align: left;
+}
+
+.medium {
+    color: #333333;
+    font-size: 18px;
+    font-weight: medium;
+    text-align: right;
+}
+
+.green-font {
+    background-color: linear-gradient(to right, #00853e 0, #6f4d0c 100%);
+    color: #00853e;
+    text-align: right;
+}
+
+/* Table End */

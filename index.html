@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<HTML lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <title>Deque Workshop: Translating Design Wireframes into Accessible HTML/CSS</title>
+</head>
+
+<body>
+    <header class="jumbotron jumbotron-fluid">
+        <h1 class="text-center">iRoll Bakery Shop</h1>
+    </header>
+    <a href="#main">Skip to main</a>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="#nucampNavbar">
+                <ul class="navbar-nav list">
+                    <li class="nav-item active list-item-1">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-item list-item-2" style="display:inline;" role="listitem">
+                        <a href="AboutUs.HTML">About Us</a>
+                    </li>
+                    <li class="nav-item list-item-3" style="display: inline;" role="listitem">
+                        <a href="ContactUs.HTML">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main id="main" role="main">
+        <div class="container container-fluid text-center">
+            <button id="modal-trigger" class="btn btn-primary text-center" type="button" data-toggle="modal"
+                data-target="#exampleModalCenter" onclick="triggerModal()">
+                CLICK HERE If You Like Big Butts!
+            </button>
+        </div>
+        <div id="modal-placeholder" class="text-center"></div>
+        <div class="container container-fluid d-flex">
+            <div id="row-one" class="row flex-fill">
+                <div class="col-sm-4 flex-column item-holder shop-item-container">
+                    <img class="img-fluid text-center"
+                        src="http://pngimg.com/uploads/chocolate_cake/chocolate_cake_PNG56.png" alt="" />
+                    <table class="text-center">
+                        <thead>
+                            <tr>
+                                <th colspan="2" class="text-center">Chocolate Cake</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="regular">Prep time</td>
+                                <td class="medium">20 min</td>
+                            </tr>
+                            <tr>
+                                <td class="regular">Bake time</td>
+                                <td class="medium">30 min</td>
+                            </tr>
+                            <tr>
+                                <td class="regular">Difficulty</td>
+                                <td class="text-success text-right">Intermediate</td>
+                            </tr>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button class="text-center recipe-button">COOK CHOCOLATE CAKE</button>
+                </div>
+                <div class="col-sm-4 flex-column item-holder shop-item-container">
+                    <img class="img-fluid text-center" src="/YorkshirePudding.png" alt="" />
+                    <table class="text-center">
+                        <thead>
+                            <tr>
+                                <th colspan="2" class="text-center">Yorkshire Pudding</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="regular">Prep time</td>
+                                <td class="medium">60 min</td>
+                            </tr>
+                            <tr>
+                                <td class="regular">Bake time</td>
+                                <td class="medium">32-45 min</td>
+                            </tr>
+                            <tr>
+                                <td class="regular">Difficulty</td>
+                                <td class="text-danger text-right">Expert</td>
+                            </tr>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button class="text-center recipe-button">COOK YORKSHIRE PUDDING</button>
+                </div>
+                <div class="col-sm-4 flex-column item-holder shop-item-container">
+                    <img class="img-fluid text-center"
+                        src="https://cdn.shopify.com/s/files/1/1196/3606/products/MomsProduct_1024x1024.png?v=1473120225"
+                        alt="" />
+                    <table class="text-center">
+                        <thead>
+                            <tr>
+                                <th colspan="2" class="text-center">Mom's Spaghetti</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="regular">Prep time</td>
+                                <td class="medium">10 min</td>
+                            </tr>
+                            <tr>
+                                <td class="regular">Bake time</td>
+                                <td class="medium">15-18 min</td>
+                            </tr>
+                            <tr>
+                                <td class="regular">Difficulty</td>
+                                <td class="text-success text-right">Beginner</td>
+                            </tr>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button class="text-center recipe-button">COOK MOM'S SPAGHETTI</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ol class="breadcrumb list">
+                        <li class="breadcrumb-item active list-item-1"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item list-item-2"><a href="AboutUs.HTML">About Us</a></li>
+                        <li class="breadcrumb-item list-item-3"><a href="ContactUs.HTML">Contact Us</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</HTML>
